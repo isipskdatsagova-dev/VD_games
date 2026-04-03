@@ -11,6 +11,8 @@ dependencies = [
 [project.scripts]
 VD-games = "VD_games.cli:main"
 VD-even = "VD_games.scripts.VD_even:run_game"
+VD-calc = "VD_games.scripts.VD_calc:run_game"
+VD-gcd = "VD_games.scripts.VD_gcd:run_game"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
