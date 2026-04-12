@@ -6,7 +6,7 @@ RULES = "What is the result of the expression?"
 
 
 def generate_round():
-    """Генерирует случайное выражение и правильный ответ."""
+
     operations = [
         ('+', lambda a, b: a + b),
         ('-', lambda a, b: a - b),
