@@ -6,8 +6,7 @@ import random
 RULES = "What number is missing in the progression?"
 
 
-def generate_round():
-    """Генерирует прогрессию с пропущенным числом."""
+def generate_round()
     length = random.randint(5, 12)
     start = random.randint(1, 20)
     step = random.randint(1, 10)
@@ -23,7 +22,6 @@ def generate_round():
 
 
 if __name__ == "__main__":
-    # Для тестирования
     print(RULES)
     q, a = generate_round()
     print(f"Question: {q}")
