@@ -1,4 +1,3 @@
-"""Пакет с играми проекта VD-games."""
 
 from VD_games.games import even
 from VD_games.games import calc
