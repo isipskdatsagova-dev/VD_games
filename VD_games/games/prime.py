@@ -7,7 +7,6 @@ RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(n):
-    """Проверяет, является ли число простым."""
     if n < 2:
         return False
     for i in range(2, int(n ** 0.5) + 1):
