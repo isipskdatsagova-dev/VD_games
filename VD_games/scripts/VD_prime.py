@@ -1,4 +1,4 @@
-"""Точка входа для игры "Простое ли число?"."""
+"Простое ли число?"
 
 from VD_games.engine import run_game
 from VD_games.games import prime
