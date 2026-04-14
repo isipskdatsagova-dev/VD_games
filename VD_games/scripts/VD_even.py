@@ -1,4 +1,4 @@
-"""Точка входа для игры "Проверка на чётность"."""
+"Проверка на чётность"
 
 from VD_games.engine import run_game
 from VD_games.games import even
