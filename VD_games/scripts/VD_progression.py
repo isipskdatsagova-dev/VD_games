@@ -1,4 +1,4 @@
-"""Точка входа для игры "Арифметическая прогрессия"."""
+"Арифметическая прогрессия"
 
 from VD_games.engine import run_game
 from VD_games.games import progression
