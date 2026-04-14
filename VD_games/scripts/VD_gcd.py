@@ -1,4 +1,4 @@
-"""Точка входа для игры "НОД"."""
+ "НОД"
 
 from VD_games.engine import run_game
 from VD_games.games import gcd
